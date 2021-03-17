@@ -1,0 +1,7 @@
+app/database/Player.class
+app/database/Builder.class
+app/database/PlayerBuilder.class
+app/App.class
+app/database/Spell.class
+app/database/PlayerDao.class
+app/database/Dao.class
