@@ -11,5 +11,14 @@ Bienvenu dans ce workshop sur le package natif sql de java. En effet ce package 
  ```
  import java.sql.*;
  ```
+ Dans la partie suivante nous allons couvrir :
+ + La base des query SQL (création d'une table, ajout et retrait d'un élement d'une table)
+ + Qu'est-ce qu'un singleton et un Builder et quel sont leurs intérêts
+
+## La base des query SQL
+Le langage SQL fonctionne différement des langages impératifs que vous avez l'habitude de manipuler. Ici on manipule le code a l'aide de "queries" qui permettent de demander a notre base de donnée d'effectuer un ordre que l'on spécifie.
+
+![](images/image1.png)
+
  
  
