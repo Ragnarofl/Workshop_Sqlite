@@ -20,7 +20,7 @@ Le langage SQL fonctionne différement des langages impératifs que vous avez l'
 
 Tout d'abord commencons par créer une table, on vérifie qu'elle n'existe pas déjà avec "if not exist" et nous lui donnont 2 colonnes, pseudo et health.\
 En SQL il nous faut donc créer des tables avec des colonnes définies à la création pour stocker nos donnée, les donnée dans une table sont appellé des lignes.
-Idéalement on préfére un petit nombre de tables pour un grand nombres de lignes, il vaux mieux éviter les tables avec des colonnes trop spécifiques qui n'acceuillerons que peu de lignes.
+Idéalement on préfére un petit nombre de tables pour un grand nombres de lignes, il vaux mieux éviter les tables avec des colonnes trop spécifiques qui n'acceuillerons que peu de lignes.\
 Pour les besoin du test on peux aussi rajouter une ligne avec la query "drop table if exist player" avant la création pour réinitialiser la table à chaque lancement de notre programme.
 
 ![](images/image2.png)
@@ -33,7 +33,7 @@ Et pour finir, il nous faut évidement de quoi retirer une ligne de notre table 
 
 ## Qu'est-ce qu'un singleton et un builder
 
-Avant de vous laisser sur la partie d'exercice pratique un rapide point sur les design paterns qui sont utilisé dans ce workshop.
+Avant de vous laisser sur la partie d'exercice pratique un rapide point sur les design paterns qui sont utilisé dans ce workshop.\
 Les design patern sont des formats de classe récurrent afin de simplifier la compréhension du code quand ce dernier passe entre plusieurs développeur. Il est donc de bonne pratique de les utiliser le plus souvent possible et d'en connaitre l'existence.
 
 ![](images/image4.png)
@@ -45,7 +45,7 @@ Dans cette image on peux voir un exemple de singleton, le singleton est un type 
 
 Une fois tout ceci mis en place, votre classe est maintenant un singleton et il ne pourais en exister qu'une seule instance qui est créée au lancement du programme.
 
-Et enfin le builder, ce design patern peux paraitre inutile au premier abord car il ne sert pas a quelque chose de "fonctionnel" comme le singleton, il est la pour éviter les erreurs lors de la programmation et augmenter la lisibilitée du code.
+Et enfin le builder, ce design patern peux paraitre inutile au premier abord car il ne sert pas a quelque chose de "fonctionnel" comme le singleton, il est la pour éviter les erreurs lors de la programmation et augmenter la lisibilitée du code.\
 Le builder s'impose lorsqu'une classe commence à demander un grand nombres d'arguments lors de sa création et il deviens facile de faire une erreur quand on rentre ces dernières.
 
 ![](images/image5.png)
