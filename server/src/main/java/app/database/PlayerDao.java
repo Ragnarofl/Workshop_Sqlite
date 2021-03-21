@@ -26,9 +26,8 @@ public class PlayerDao extends Dao<Player> {
             _statement = _connection.createStatement();
             _statement.setQueryTimeout(30);
 
-            _statement.executeUpdate("create table if not exists player " 
-                                                        + "(pseudo string, " 
-                                                        + "health int)");
+            //add code here
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
