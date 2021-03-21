@@ -23,7 +23,7 @@ Le langage SQL fonctionne différement des langages impératifs que vous avez l'
 
 ![](images/image1.png)
 
-Tout d'abord commencons par créer une table, on vérifie qu'elle n'existe pas déjà avec "if not exist" et nous lui donnont 2 colonnes, pseudo et health.
+Tout d'abord commencons par créer une table, on vérifie qu'elle n'existe pas déjà avec "if not exist" et nous lui donnont 2 colonnes, pseudo et health.\n
 En SQL il nous faut donc créer des tables avec des colonnes définies à la création pour stocker nos donnée, les donnée dans une table sont appellé des lignes.
 Idéalement on préfére un petit nombre de tables pour un grand nombres de lignes, il vaux mieux éviter les tables avec des colonnes trop spécifiques qui n'acceuillerons que peu de lignes.
 Pour les besoin du test on peux aussi rajouter une ligne avec la query "drop table if exist player" avant la création pour réinitialiser la table à chaque lancement de notre programme.
