@@ -66,5 +66,5 @@ Maintenant je vais vous laisser sur un exercice pratique.
 + Ensuite vous devrez rendre la classe compatible à un usage concurentiel, ce qui veux dire mutexer l'ensemble des fonctions pour éviter des soucis lorsque la classe est utilisée par plusieurs threads a la fois. Je vous ais déjà mis à disposition un mutex dans la classe Dao dont PlayerDao hérite, contentez vous donc d'utiliser la variable "_mutex".
 + Et pour finir vous devrez ajouter une nouvelle table à la database, la table spell, et, en utilisant la classe déjà présente, ajouter une liste de spell au player que vous lui ajouterez lors de sa création dans la méthode get().
 
-Merci pour votre participation a ce workshop et bonne travail !
+Merci pour votre participation a ce workshop et bon travail !
  
