@@ -2,7 +2,7 @@
 A workshop to learn how to create a native sqlite database in Java
 
 # Partie 1 : introduction
-Bienvenu dans ce workshop sur le package natif sql de java. En effet ce package a l'avantage d'être "natif" ce qui veux dire qu'il ne nécéssite aucune installation supplémentaire pour être utilisé, il suffit de l'importer dans votre code come ceci.
+Bienvenu dans ce workshop sur le package natif sql de java. En effet ce package a l'avantage d'être "natif" ce qui veux dire qu'il ne nécessite aucune installation supplémentaire pour être utilisé, il suffit de l'importer dans votre code come ceci.
  ```
  import java.sql.*;
  ```
