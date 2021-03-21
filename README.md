@@ -47,6 +47,7 @@ Dans cette image on peux voir un exemple de singleton, le singleton est un type 
 + L'instance unique de cette classe diréctement a l'intérieur d'elle même et en privé.
 + Son propre constructeur en privé.
 + Une méthode publique afin d'obtenir une référence de l'instance de la classe.
+
 Une fois tout ceci mis en place, votre classe est maintenant un singleton et il ne pourais en exister qu'une seule instance qui est créée au lancement du programme.
 
 Et enfin le builder, ce design patern peux paraitre inutile au premier abord car il ne sert pas a quelque chose de "fonctionnel" comme le singleton, il est la pour éviter les erreurs lors de la programmation et augmenter la lisibilitée du code.
