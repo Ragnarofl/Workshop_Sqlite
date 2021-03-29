@@ -55,7 +55,7 @@ public class PlayerDao extends Dao<Player> {
     public List<Player> getAll() {
         List<Player> playerList = new ArrayList<Player>();
         try {
-            ResultSet rs_player = _statement.executeQuery("select * from player");
+            ResultSet rs_player = _connection.createStatement().executeQuery("select * from player");
             Player tmp = null;
 
             while (rs_player.next()) {
