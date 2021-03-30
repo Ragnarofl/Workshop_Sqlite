@@ -7,6 +7,12 @@ Bienvenu dans ce workshop sur le package natif sql de java. En effet ce package 
  import java.sql.*;
  ```
  
+Le projet de ce workshop a été généré à l'avance avec Maven pour simplifier sa réalisation.\
+Pour tester votre code il vous suffiras de mettre du code dans App.js qui fait office de main et de compiler/executer avec la commande suivante en étant dans le dossier "server".
+```
+mvn package && mvn exec:java
+```
+ 
  # Partie 2 : explication architecture, création table, insertion
  
  Dans la partie suivante nous allons couvrir :
